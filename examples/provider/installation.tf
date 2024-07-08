@@ -3,7 +3,7 @@ terraform {
 
   required_providers {
     dockerhub = {
-      source  = "BarnabyShearer/dockerhub"
+      source  = "Marfeel/dockerhub"
       version = ">= 0.0.15"
     }
   }

@@ -3,9 +3,9 @@
 =======
 # Docker Hub Provider
 
-[![registry.terraform.io](https://img.shields.io/badge/terraform-docs-success)](https://registry.terraform.io/providers/BarnabyShearer/dockerhub/latest/docs)
+[![registry.terraform.io](https://img.shields.io/badge/terraform-docs-success)](https://registry.terraform.io/providers/Marfeel/dockerhub/latest/docs)
 
-![Build Status](https://github.com/BarnabyShearer/terraform-provider-dockerhub/actions/workflows/publish.yml/badge.svg)
+![Build Status](https://github.com/Marfeel/terraform-provider-dockerhub/actions/workflows/publish.yml/badge.svg)
 
 Lifecycle management of Docker Hub using the v2 API.
 
@@ -21,7 +21,7 @@ terraform {
 
   required_providers {
     dockerhub = {
-      source  = "BarnabyShearer/dockerhub"
+      source  = "Marfeel/dockerhub"
       version = ">= 0.0.15"
     }
   }
