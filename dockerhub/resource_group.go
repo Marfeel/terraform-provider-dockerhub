@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 
-	dh "github.com/BarnabyShearer/dockerhub/v2"
+	dh "github.com/Marfeel/dockerhub/v2"
 )
 
 func resourceGroup() *schema.Resource {
