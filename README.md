@@ -22,7 +22,7 @@ terraform {
   required_providers {
     dockerhub = {
       source  = "Marfeel/dockerhub"
-      version = ">= 0.0.15"
+      version = ">= 0.2.0"
     }
   }
 }
