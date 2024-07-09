@@ -1,7 +1,8 @@
 # Configure the Docker Hub Provider
 provider "dockerhub" {
-  username = "azurediamond"
-  password = "hunter2"
+  username       = "azurediamond"
+  password       = "hunter2"
+  sleep_interval = "750"
 }
 
 # Create an organization group for developers

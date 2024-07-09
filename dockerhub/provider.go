@@ -24,6 +24,12 @@ func Provider() *schema.Provider {
 				DefaultFunc: schema.EnvDefaultFunc("DOCKER_PASSWORD", nil),
 				Description: "Password for authentication.",
 			},
+			"sleep_interval": {
+				Type:        schema.TypeString,
+				Optional:    true,
+				DefaultFunc: schema.EnvDefaultFunc("SLEEP_INTERVAL", "750"),
+				Description: "Amount of milliseconds to sleep between requests. Defaults to 750",
+			},
 		},
 		ResourcesMap: map[string]*schema.Resource{
 			"dockerhub_repository":      resourceRepository(),
@@ -36,5 +42,5 @@ func Provider() *schema.Provider {
 }
 
 func providerConfigure(ctx context.Context, d *schema.ResourceData) (interface{}, diag.Diagnostics) {
-	return rtd.NewClient(d.Get("username").(string), d.Get("password").(string)), nil
+	return rtd.NewClient(d.Get("username").(string), d.Get("password").(string), d.Get("sleep_interval").(string)), nil
 }
