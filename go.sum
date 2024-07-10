@@ -362,8 +362,8 @@ cloud.google.com/go/workflows v1.9.0/go.mod h1:ZGkj1aFIOd9c8Gerkjjq7OW7I5+l6cSvT
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
-github.com/Marfeel/dockerhub/v2 v2.4.1-0.20240709151401-994dd6e9fbdf h1:hPA4Pi8ktXutbUL32Oe/RzliRYvEVbXhTt1WOEcuvYA=
-github.com/Marfeel/dockerhub/v2 v2.4.1-0.20240709151401-994dd6e9fbdf/go.mod h1:0oJJy/ogptA+kYjmrviXU/GEwDkj09XrqsQ2lw/9KNg=
+github.com/Marfeel/dockerhub/v2 v2.5.0 h1:RPPmL7aZBtJIm8PFf/4erdXSHX3xEyhsB8yBBxaVQt0=
+github.com/Marfeel/dockerhub/v2 v2.5.0/go.mod h1:0oJJy/ogptA+kYjmrviXU/GEwDkj09XrqsQ2lw/9KNg=
 github.com/Masterminds/goutils v1.1.0/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=
 github.com/Masterminds/goutils v1.1.1 h1:5nUrii3FMTL5diU80unEVvNevw1nH4+ZV4DSLVJLSYI=
 github.com/Masterminds/goutils v1.1.1/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=

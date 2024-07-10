@@ -3,7 +3,7 @@ module github.com/Marfeel/terraform-provider-dockerhub
 go 1.16
 
 require (
-	github.com/Marfeel/dockerhub/v2 v2.4.1-0.20240709151401-994dd6e9fbdf
+	github.com/Marfeel/dockerhub/v2 v2.5.0
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/hashicorp/terraform-plugin-docs v0.13.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.26.1
