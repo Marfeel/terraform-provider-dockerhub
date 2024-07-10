@@ -15,7 +15,7 @@ This provider enables management of Docker Hub registries, groups, permissions a
 
 The provider can be installed and managed automatically by Terraform. Sample `versions.tf` file:
 
-```hcl
+```terraform
 terraform {
   required_version = ">= 0.13"
 
@@ -30,11 +30,12 @@ terraform {
 
 ## Quick Start
 
-```hcl
+```terraform
 # Configure the Docker Hub Provider
 provider "dockerhub" {
-  username = "azurediamond"
-  password = "hunter2"
+  username       = "azurediamond"
+  password       = "hunter2"
+  sleep_interval = "750"
 }
 
 # Create an organization group for developers
